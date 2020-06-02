@@ -1,7 +1,7 @@
 # CalcWKFF
 Command line tool to calculate hashes using WKFF (Well Known File Filter) format, used by forensic tools (LED and IPED).
 
-Usage: java -jar calcwkff.jar input-folder > output-file-name.txt
+Usage: ```java -jar calcwkff.jar input-folder > output-file-name.txt```
 
 Hashes of all files contained in the specified "input-folder" will be calculated (including any files in subfolders) and written to the standard output (which will be usually redirected to a plain text file).
 
